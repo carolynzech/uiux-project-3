@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+p, h1, h2, h3, img, a {
+    padding: 10px 30px;
+}
+
+h1, h2 {
+    padding-top: 30px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.sketches, .low-fi {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.sketches img, .lo-fi img {
+    height: 500px;
+}
+
+.hi-fi {
+    display: flex;
+    flex-direction: column;
+}
+
