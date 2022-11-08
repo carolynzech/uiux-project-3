@@ -1,6 +1,8 @@
 * {
     margin: 0;
     box-sizing: border-box;
+    background: #E9F2FF;
+    font-family: "Inter", serif !important;
 }
 
 p, h1, h2, h3, img, a {
@@ -16,18 +18,21 @@ h1 {
     justify-content: center;
 }
 
-.sketches, .low-fi {
+.sketches, .lo-fi {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    align-items: flex-start;
 }
 
-.sketches img, .lo-fi img {
+.sketches img {
     height: 500px;
+}
+.lo-fi img {
+    width: 450px;
 }
 
 .hi-fi {
     display: flex;
     flex-direction: column;
 }
-
